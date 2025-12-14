@@ -33,4 +33,11 @@ export interface RepairShop {
   longitude: string | number; // Can be string from Supabase TEXT column
   place_id: string;
   scraped_at: string;
+  distance_from_city_center: number | null;
+  is_city_center: boolean | null;
+  city_center_lat: string | number | null;
+  city_center_lon: string | number | null;
+  added_by: string | null;
+  last_verified: string | null;
+  is_active: boolean | null;
 }

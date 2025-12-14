@@ -1,0 +1,14 @@
+{
+  "totalSpent": 0,
+  "runs": [
+    {
+      "timestamp": "2025-12-08T03:46:04.957Z",
+      "totalAnalyzed": 0,
+      "totalApproved": 0,
+      "totalRejected": 3,
+      "totalAdded": 0,
+      "cost": 0
+    }
+  ],
+  "lastRun": "2025-12-08T03:46:19.306Z"
+}
