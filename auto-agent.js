@@ -414,7 +414,7 @@ async function runAgent() {
   console.log(`\n📊 Total shops added (all time): ${state.totalShopsAdded}`);
   console.log(`🔄 Progress: ${state.citiesCompleted.length}/${ALL_CITIES.length} cities`);
   console.log('='.repeat(60));
-  console.log('\n💡 Agent will run automatically again next week!');
+  console.log('\n💡 Agent will run automatically again tomorrow at 2 AM!');
 }
 
 runAgent().catch(console.error);
